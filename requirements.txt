@@ -1,0 +1,16 @@
+# google-generativeai 
+# groq 
+# PyPDF2 
+# python-docx
+# python-dotenv
+# streamlit
+
+
+
+
+pymupdf
+pdf2image
+pytesseract
+pillow
+pydantic
+pyyaml
