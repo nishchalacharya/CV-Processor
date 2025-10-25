@@ -1,41 +1,4 @@
-# import os
-# from dotenv import load_dotenv
-# import google.generativeai as genai
 
-# # Load .env variables
-# load_dotenv()
-
-# # Configure Gemini API
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-# def parse_resume_with_llm(resume_text: str):
-#     """
-#     Use Gemini (Google Generative AI) to parse resume text into structured JSON.
-#     """
-
-#     prompt = f"""
-#     You are an expert HR AI assistant.
-#     Extract the following structured information from this resume text:
-#     ["name", "email", "phone", "skills", "education", "experience", "certifications", "projects"]
-
-#     - Return data in clean JSON format only.
-#     - Do not include explanations or extra text.
-
-#     Resume Text:
-#     {resume_text[:10000]}  # truncated for safety
-#     """
-
-#     try:
-#         model = genai.GenerativeModel("gemini-2.5-flash")  # ✅ Fast & free model
-#         response = model.generate_content(prompt)
-
-#         # The response is usually text, so we return it directly
-#         parsed_output = response.text.strip()
-
-#         return {"parsed_output": parsed_output}
-
-#     except Exception as e:
-#         raise RuntimeError(f"Gemini API Error: {e}")
 
 
 import google.generativeai as genai

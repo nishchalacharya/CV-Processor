@@ -1,17 +1,3 @@
-# def build_job_query(parsed_data: dict) -> str:
-#     skills = ", ".join(parsed_data.get("skills", []))
-#     education = ", ".join(parsed_data.get("education", []))
-#     experience = ", ".join(parsed_data.get("experience", []))
-
-#     query = f"""
-#     Based on the candidate’s background:
-#     - Skills: {skills}
-#     - Education: {education}
-#     - Experience: {experience}
-
-#     Generate a natural-language job search query that could be used to find matching jobs.
-#     """
-#     return query.strip()
 
 
 

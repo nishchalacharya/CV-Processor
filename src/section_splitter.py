@@ -1,31 +1,4 @@
-# import re
 
-# def split_sections(text: str) -> dict:
-#     """
-#     Splits a CV text into common sections using regex heuristics.
-#     """
-#     sections = {
-#         "experience": "",
-#         "education": "",
-#         "skills": "",
-#         "certifications": "",
-#         "projects": "",
-#         "summary": ""
-#     }
-
-#     # Normalize
-#     text = text.replace("\n", " ")
-
-#     # Split by common section names
-#     parts = re.split(r'(?i)(experience|work experience|education|academic background|skills|technical skills|certifications|projects|summary|profile)', text)
-
-#     # Build dictionary
-#     for i in range(1, len(parts), 2):
-#         key = parts[i].strip().lower()
-#         if key in sections:
-#             sections[key] = parts[i+1].strip()
-
-#     return sections
 
 
 

@@ -14,3 +14,7 @@ pytesseract
 pillow
 pydantic
 pyyaml
+fastapi
+uvicorn
+python-multipart
+docx2txt
